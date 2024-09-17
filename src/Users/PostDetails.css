@@ -1,0 +1,63 @@
+
+
+.post-card {
+    border-radius: 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+  }
+  
+  .post-card-body {
+    padding: 20px;
+  }
+  
+  .post-card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .post-card-content {
+    font-size: 1.125rem;
+    color: #666;
+  }
+  
+  .post-card-date {
+    font-size: 0.875rem;
+    color: #999;
+  }
+  @media (max-width: 768px) {
+    .post-card {
+      max-width: 100%;
+    }
+    .post-card-body {
+      padding: 10px;
+    }
+    .post-card-title {
+      font-size: 20px;
+    }
+    .post-card-content {
+      font-size: 16px;
+    }
+    .post-card-date {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .post-card {
+      max-width: 100%;
+    }
+    .post-card-body {
+      padding: 5px;
+    }
+    .post-card-title {
+      font-size: 18px;
+    }
+    .post-card-content {
+      font-size: 14px;
+    }
+    .post-card-date {
+      font-size: 10px;
+    }
+  }
+
+  

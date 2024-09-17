@@ -1,0 +1,79 @@
+/* PostView.css */
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  width: 100%;
+}
+
+.table thead {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table thead th {
+  border-bottom: 2px solid #495057;
+  text-align: center;
+  padding: 12px;
+}
+
+.table tbody tr {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.table tbody td {
+  padding: 12px;
+  text-align: left;
+}
+
+.table th, .table td {
+  border: none;
+  vertical-align: middle;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .table-responsive {
+    overflow-x: scroll;
+  }
+  .btn {
+    font-size: 14px;
+  }
+}
